@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<body>
+		<div ng-app="" ng-init="name='William'">
+			<p>Name: <input type="text" ng-model="name"></p>
+			<p>Bound with ng-bind:<span ng-bind="name"></span></p>
+			<p>Bound with expression: {{name}}</p>
+		</div>
+	</body>
+</html>
